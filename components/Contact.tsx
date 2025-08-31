@@ -26,9 +26,9 @@ const Contact = () => {
 
   const socialLinks = [
     { name: 'GitHub', icon: '🐙', url: 'https://github.com/Debaditya05-gif', color: 'hover:text-neon-cyan' },
-    { name: 'LinkedIn', icon: '💼', url: 'https://linkedin.com/in/debaditya-saha', color: 'hover:text-neon-blue' },
-    { name: 'Portfolio', icon: '🌐', url: 'https://debaditya-saha.vercel.app', color: 'hover:text-neon-purple' },
-    { name: 'Email', icon: '📧', url: 'mailto:debaditya.saha@example.com', color: 'hover:text-neon-pink' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/debaditya-saha-8a9511371?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bth84CzxqQeudZWlc4wxI5Q%3D%3D', color: 'hover:text-neon-blue' },
+    { name: 'Portfolio', icon: '🌐', url: 'https://debaditya-protfolio.vercel.app/', color: 'hover:text-neon-purple' },
+    { name: 'Email', icon: '📧', url: 'mailto:debadityasaha880@gmail.com', color: 'hover:text-neon-pink' },
   ];
 
   return (
