@@ -1,0 +1,9 @@
+This directory is for static assets like images, icons, and other files.
+
+For the portfolio, you can add:
+- Project screenshots
+- Profile pictures
+- Icons and logos
+- Any other static assets
+
+The components are currently using emoji placeholders, but you can replace them with actual images by updating the image paths in the data/portfolio.ts file. 

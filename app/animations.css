@@ -1,0 +1,180 @@
+/* Custom animations and utility classes extracted from globals.css */
+
+/* component-like utilities */
+.glass { @apply bg-white/10 backdrop-blur-md border border-white/20; }
+.neon-glow { @apply shadow-[0_0_20px_rgba(0,255,255,0.5)] border-neon-cyan; }
+.neon-text { @apply text-neon-cyan drop-shadow-[0_0_10px_rgba(0,255,255,0.8)]; }
+.gradient-bg {
+  background: linear-gradient(-45deg, #0ea5e9, #8b5cf6, #ec4899, #3b82f6);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* utilities */
+.text-gradient { @apply bg-gradient-to-r from-neon-cyan to-neon-purple bg-clip-text text-transparent; }
+.bg-gradient-radial { background: radial-gradient(circle, var(--tw-gradient-stops)); }
+
+/* Floating animations */
+.float-1 { animation: float1 8s ease-in-out infinite; }
+.float-2 { animation: float2 10s ease-in-out infinite; }
+.float-3 { animation: float3 12s ease-in-out infinite; }
+.float-4 { animation: float4 9s ease-in-out infinite; }
+.float-5 { animation: float5 11s ease-in-out infinite; }
+.float-6 { animation: float6 7s ease-in-out infinite; }
+
+/* DNA helix positioning */
+.dna-left { left: 35%; }
+.dna-right { left: 65%; }
+
+/* DNA top positions */
+.dna-top-1 { top: 5%; }
+.dna-top-2 { top: 10%; }
+.dna-top-3 { top: 15%; }
+.dna-top-4 { top: 20%; }
+.dna-top-5 { top: 25%; }
+.dna-top-6 { top: 30%; }
+.dna-top-7 { top: 35%; }
+.dna-top-8 { top: 40%; }
+.dna-top-9 { top: 45%; }
+.dna-top-10 { top: 50%; }
+.dna-top-11 { top: 55%; }
+.dna-top-12 { top: 60%; }
+.dna-top-13 { top: 65%; }
+.dna-top-14 { top: 70%; }
+.dna-top-15 { top: 75%; }
+.dna-top-16 { top: 80%; }
+.dna-top-17 { top: 85%; }
+.dna-top-18 { top: 90%; }
+.dna-top-19 { top: 95%; }
+.dna-top-20 { top: 100%; }
+
+/* Matrix top positions */
+.matrix-top-1 { top: 2.5%; }
+.matrix-top-2 { top: 5%; }
+.matrix-top-3 { top: 7.5%; }
+.matrix-top-4 { top: 10%; }
+.matrix-top-5 { top: 12.5%; }
+.matrix-top-6 { top: 15%; }
+.matrix-top-7 { top: 17.5%; }
+.matrix-top-8 { top: 20%; }
+.matrix-top-9 { top: 22.5%; }
+.matrix-top-10 { top: 25%; }
+.matrix-top-11 { top: 27.5%; }
+.matrix-top-12 { top: 30%; }
+.matrix-top-13 { top: 32.5%; }
+.matrix-top-14 { top: 35%; }
+.matrix-top-15 { top: 37.5%; }
+.matrix-top-16 { top: 40%; }
+.matrix-top-17 { top: 42.5%; }
+.matrix-top-18 { top: 45%; }
+.matrix-top-19 { top: 47.5%; }
+.matrix-top-20 { top: 50%; }
+.matrix-top-21 { top: 52.5%; }
+.matrix-top-22 { top: 55%; }
+.matrix-top-23 { top: 57.5%; }
+.matrix-top-24 { top: 60%; }
+.matrix-top-25 { top: 62.5%; }
+.matrix-top-26 { top: 65%; }
+.matrix-top-27 { top: 67.5%; }
+.matrix-top-28 { top: 70%; }
+.matrix-top-29 { top: 72.5%; }
+.matrix-top-30 { top: 75%; }
+.matrix-top-31 { top: 77.5%; }
+.matrix-top-32 { top: 80%; }
+.matrix-top-33 { top: 82.5%; }
+.matrix-top-34 { top: 85%; }
+.matrix-top-35 { top: 87.5%; }
+.matrix-top-36 { top: 90%; }
+.matrix-top-37 { top: 92.5%; }
+.matrix-top-38 { top: 95%; }
+.matrix-top-39 { top: 97.5%; }
+.matrix-top-40 { top: 100%; }
+
+/* Tech card grid */
+.tech-grid-1 { left: 10%; top: 20%; }
+.tech-grid-2 { left: 30%; top: 40%; }
+.tech-grid-3 { left: 50%; top: 60%; }
+.tech-grid-4 { left: 70%; top: 20%; }
+.tech-grid-5 { left: 90%; top: 40%; }
+.tech-grid-6 { left: 20%; top: 80%; }
+
+/* Badge positions */
+.badge-1 { left: 15%; top: 25%; }
+.badge-2 { left: 35%; top: 45%; }
+.badge-3 { left: 55%; top: 65%; }
+.badge-4 { left: 75%; top: 25%; }
+.badge-5 { left: 25%; top: 85%; }
+.badge-6 { left: 85%; top: 45%; }
+
+/* Code snippet positions */
+.code-1 { left: 5%; top: 15%; }
+.code-2 { left: 25%; top: 35%; }
+.code-3 { left: 45%; top: 55%; }
+.code-4 { left: 65%; top: 75%; }
+
+/* Matrix columns */
+.matrix-col-1 { left: 5%; }
+.matrix-col-2 { left: 15%; }
+.matrix-col-3 { left: 25%; }
+.matrix-col-4 { left: 35%; }
+.matrix-col-5 { left: 45%; }
+.matrix-col-6 { left: 55%; }
+.matrix-col-7 { left: 65%; }
+.matrix-col-8 { left: 75%; }
+.matrix-col-9 { left: 85%; }
+.matrix-col-10 { left: 95%; }
+
+/* Keyframes */
+@keyframes float1 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-20px) translateX(10px); }
+  50% { transform: translateY(-10px) translateX(-15px); }
+  75% { transform: translateY(-30px) translateX(5px); }
+}
+@keyframes float2 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-15px) translateX(-20px); }
+  50% { transform: translateY(-25px) translateX(10px); }
+  75% { transform: translateY(-5px) translateX(-25px); }
+}
+@keyframes float3 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-30px) translateX(15px); }
+  50% { transform: translateY(-20px) translateX(-20px); }
+  75% { transform: translateY(-35px) translateX(-5px); }
+}
+@keyframes float4 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-10px) translateX(-30px); }
+  50% { transform: translateY(-25px) translateX(20px); }
+  75% { transform: translateY(-15px) translateX(-10px); }
+}
+@keyframes float5 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-20px) translateX(25px); }
+  50% { transform: translateY(-30px) translateX(-15px); }
+  75% { transform: translateY(-5px) translateX(30px); }
+}
+@keyframes float6 {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  25% { transform: translateY(-25px) translateX(-20px); }
+  50% { transform: translateY(-15px) translateX(25px); }
+  75% { transform: translateY(-35px) translateX(-5px); }
+}
+
+@keyframes dnaPulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes matrixRain {
+  0% { transform: translateY(-100vh); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(100vh); opacity: 0; }
+}
+
+@keyframes energyWave {
+  0% { transform: scale(0); opacity: 1; }
+  100% { transform: scale(2); opacity: 0; }
+}
